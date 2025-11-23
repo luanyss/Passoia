@@ -1,9 +1,10 @@
+import "./header.scss";
+import logo from "../../assets/logo.png";
 
-
-function Header(){
-    return(
+function Header() {
+    return (
         <header>
-            <img src="" alt="logo marca da pagina" />
+            <img src="{logo}" alt="logo marca da pagina" />
             <ul>
                 <li>LOOKS</li>
                 <li>LANÇAMENTOS</li>
@@ -13,3 +14,5 @@ function Header(){
     )
 }
 export default Header
+//header - tag
+// Header componente funcional - logica
